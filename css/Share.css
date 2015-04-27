@@ -1,0 +1,1462 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Danh sách tin tức trang tin tức*/
+
+.list-news
+{
+	padding:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.list-news .item-news
+{
+	height:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+	border-bottom:solid 1px #eee;
+	padding-bottom:10px;
+}
+.list-news .item-news .title
+{
+      background-image:none;
+      text-transform:none;
+      line-height:normal;
+      padding-left:0px;
+      border-bottom:none;
+      padding-bottom:10px;
+}
+.list-news .item-news .title h2
+{
+    margin:0;
+
+}
+.list-news .item-news .title a
+{
+	font-size:16px;
+	font-weight:bold;
+	color:#2980b9;
+	text-decoration:none;
+}
+.list-news .item-news .title a:hover
+{
+	color:#4fa0d5;
+
+}
+
+.item-news img
+{
+	float:left;
+	margin-right:10px;
+	width:260px;
+	height:160px;
+}
+.item-news img:hover
+{
+    
+}
+.list-news .item-news .des-news
+{
+	color:#444444;
+	font-size:12px;
+	line-height:16px;
+	text-align:justify;
+}
+
+.list-news .item-news .date
+{
+	line-height:18px;
+	background-repeat:no-repeat;
+	margin-top:3px;
+	font-size:11px;
+	color:#919191;
+	margin-bottom:5px;
+}
+
+/*Nội dung tin*/
+
+.content_news
+{
+	line-height:18px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.content_news .ct_news
+{
+    padding:0;
+}
+.content_news .ct_news img
+{
+    max-width:640px;
+}
+.btt-download
+{
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align:center;
+
+}
+.content_news .title_news
+{
+	font-size:18px;
+	font-weight:bold;
+	color:#2980b9;
+	background-image:none;
+     text-transform:none;
+     line-height:normal;
+     padding-left:0px;
+     background-image:none;
+}
+.content_news .title_news h1
+{
+    margin:0;
+    font-size:18px;
+    color:#444;
+}
+.content_news .date
+{
+	line-height:18px;
+	background-repeat:no-repeat;
+	font-size:11px;
+	color:#919191;
+	margin-bottom:5px;
+}
+.content_news .imgthumb
+{
+    float:left;
+	margin-right:10px;
+	max-width:220px;
+	margin-bottom:10px;
+}
+.content_news img
+{
+    max-width:600px;
+}
+.content_news .des-news
+{
+	font-size:12px;
+	line-height:18px;
+	font-weight:bold;
+	color:#fff;
+	
+
+}
+.ct_news
+{
+	font-size:12px;
+	line-height:18px;
+	border-top:none;
+	color:#222222;
+	padding-left:0;
+	padding-right:0;
+	padding:10px;
+}
+.ct_news img
+{
+    max-width:700px;
+}
+.content_news .shre_tool
+{
+	margin-top:10px;
+	clear:both;
+	float:right;
+	margin-bottom:10px;
+}
+.more_news
+{
+	clear:both;
+	margin-top:10px;
+	padding:10px;
+}
+.more_news .title
+{
+	font-size:16px;
+	line-height:18px;
+	line-height:30px;
+	background-repeat:no-repeat;
+	color:#c42568;
+	font-weight:bold;
+	background-position:0px 13px;
+	font-family:Myriad Pro;
+	border-bottom:solid 1px #d7d7d7;
+}
+.more_news .list_more_news
+{
+	margin-top:5px;
+}
+.more_news .list_more_news div
+{
+	line-height:20px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+	background-position:0px 10px;
+}
+.more_news .list_more_news div a
+{
+	font-size:13px;
+	text-decoration:none;
+	color:#444;
+}
+.more_news .list_more_news div a:hover
+{
+	text-decoration:underline;
+}
+
+
+/*Phaan trang*/
+
+/*Chi tiết sản phẩm*/
+ 
+ 
+ .info_products
+ {
+	width:370px;
+	float: right;
+ }
+
+
+ .Price_details
+ {
+    font-size:16px;    
+    color:#fff;
+    
+    border-bottom:none;
+ }
+ .Price_details del
+ {
+    color:#d7d7d7;
+    font-weight:normal;
+ }
+ .Price_details strong
+ {
+    font-size:15px;
+    color:#333;
+ 
+ }
+ 
+ .info_products 
+ {
+     margin-left:10px;
+ }
+ .info_products div
+ {
+     line-height:30px;
+     font-size:12px;
+     font-weight:bold;
+     color:#fff;
+     border-bottom:solid 1px #9dcd45;
+ }
+ .info_products strong
+ {
+     color:#fff;
+ }
+ .product_details
+ {
+	margin-top:15px;
+	overflow:hidden;
+	font-weight:bold;
+	margin-left:10px;
+	margin-right:10px;
+	
+ 
+ }
+ .product_details .colpic
+ {
+	width:320px;
+	overflow:hidden;
+	float:left
+ }    
+ 
+ 
+ .product_details .colpic img
+ {
+      
+ }
+ 
+ 
+.list-pics
+{
+	margin-top:10px;
+
+}
+.list-pics table tr td
+{
+	padding-bottom:5px;
+	
+
+}
+.list-pics img
+{
+	width:62px;
+	border:solid 2px #fff;
+	height:50px;
+	margin-right:0;
+	
+}
+.list-pics img:hover
+{
+	border:solid 2px #d7d7d7
+}
+     
+
+ 
+ 
+ /*Phân trang*/
+ 
+ .Pagination
+{
+   font-weight:bold;
+   font-size:13px;
+   text-align:center;
+   width:100%;
+}
+
+
+.Pagination li
+{
+   padding-top:0px;
+   text-decoration:none;
+   background-repeat:repeat-x;
+   display:inline-block;
+   margin-right:5px;
+   margin-bottom:10px;
+   margin-top:10px;
+   display:inline;
+   font:Myriad Pro;
+   width:24px;
+    height:24px;
+    text-align:center;
+    display:inline-block;
+    padding-top:3px;
+    padding:0;
+}
+.Pagination li.plain
+{
+    border:none;
+}
+.Pagination li.disabled
+{
+   padding-left :5px;
+    padding-right:5px;
+}
+
+.Pagination li.current
+{
+    background-color:#2980b9;
+    color:#fff;
+    width:20px;
+    height:18px;
+    text-align:center;
+    padding:0;
+}
+
+.Pagination li a
+{
+   font-size:11px;
+   color:#2f2f2f;
+   text-decoration:none;
+   font-weight:bold;
+    padding-top:4px;
+   padding-bottom:4px;
+   padding-left:6px;
+   padding-right:6px;
+}
+.Pagination li a:hover
+{
+   color:#847e7e;
+   
+}
+
+
+
+
+
+.Pagination .Pagination_item:hover
+{
+   border:1px solid #847e7e;
+
+}
+.Pagination .Pagination_selected_item
+{
+   padding-top:3px;
+   padding-bottom:3px;
+   text-decoration:none;
+   float:left;
+   margin-right:5px;
+   margin-bottom:10px;
+   margin-top:10px;
+   display:inline;
+   padding-left:6px;
+   padding-right:6px;
+    border:1px solid #52a204;
+    background-color:#704d35;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.Pagination .Pagination_selected_item a
+{
+	font-size:11px;
+	text-decoration:none;
+	color:#fff
+}
+
+
+/*Sơ đồ*/
+
+.map
+{
+    margin-bottom:20px;
+
+}
+
+/*Item-album*/
+
+.Item-album,.Item-img
+{
+	padding-bottom:10px;
+
+}
+.Item-album img
+{
+	width:170px;
+	border:solid 1px #d7d7d7;
+	padding:2px;
+	height:113px;
+	margin-bottom:5px;
+}
+.Item-album img:hover
+{
+    border:solid 1px #bb2d60;
+}
+.Item-album a
+{
+	text-decoration:none;
+	color:#bb2d60;
+}
+.Item-album a:hover
+{
+	text-decoration:underline;
+}
+
+.Item-img img
+{
+	width:160px;
+	border:solid 1px #d7d7d7;
+	padding:2px;
+	height:100px;
+	margin-bottom:5px;
+
+}
+.Item-img img:hover
+{
+    border:solid 1px #bb2d60;
+}
+
+/*Frm gửi đơn hàng*/
+
+.frm-send-cart
+{
+	width:760px;
+	margin:auto;
+	margin-top:15px;
+}
+.frm-send-cart .hd-frm-send-cart
+{
+	color:#704d35;
+	font-size:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background-repeat:no-repeat;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	border-bottom:dashed 1px #714D37;
+	padding-bottom:0px;
+	line-height:30px;
+}
+
+
+.frm-send-cart .frm{
+	margin-top:10px;
+	font-weight:bold;
+	color:#714D37;
+	margin-left:10px;
+	margin-top:10px;
+}
+.frm-send-cart .frm td{
+	padding-bottom:5px;
+}
+
+.frm-send-cart .frm input{
+	border:solid 1px #dfbebe;
+	color:#704d35;
+	font-weight:bold;
+	height:22px;
+	width:250px;
+	background-color:transparent
+}
+
+.frm-send-cart .frm textarea
+{
+	background-color:transparent;
+	border:solid 1px #dfbebe;
+	color:#704d35;
+	width:300px;
+	height:105px;
+	
+
+}
+
+
+/*Frm đăng ký*/
+
+.frm-register
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#714E36;
+	
+}
+.frm-register td
+{
+	color:#714E36;
+	padding-bottom:5px;
+}
+
+.frm-register input
+{
+	width:280px;
+	border:solid 1px #d7d7d7;
+	height:20px;
+}
+
+.frm-register select
+{
+	width:91px;
+	border:solid 1px #d7d7d7;
+	height:22px;
+}
+
+
+
+
+.frm-register .hd
+{
+	color:#704d35;
+	font-size:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-bottom:solid 1px #d7d7d7;
+	padding-bottom:10px;
+	margin-bottom:15px;
+	
+	background-repeat:no-repeat;
+	padding-left:0px;
+}
+
+
+/*Form liên hệ*/
+
+.frm-contact
+{
+	color:#333;
+	overflow:hidden;
+	width:470px;
+}
+.frm-contact p
+{
+    margin-bottom:5px;
+    margin-top:0px;
+}
+
+.frm-contact .txt-contact
+{
+	width:200px;
+	height:20px;
+	background-repeat:no-repeat;
+	padding-top:1px;
+	padding-left:2px;
+}
+.frm-contact input
+{
+	border:solid 1px #999;
+	height:24px;
+	width:350px;
+
+}
+
+.frm-contact  .txt-conten-contact
+{
+	width:266px;
+	height:147px;
+	background-repeat:no-repeat;
+	padding-top:1px;
+	padding-left:2px;
+}
+.frm-contact  textarea
+{
+	border:solid 1px #999;
+	height:100px;
+	width:350px;
+}
+.frm-contact td
+{
+	padding-bottom:8px;
+
+}
+
+
+.tool-like-face
+{
+    border-top:solid 1px #ddd;
+    padding-top:4px;
+    padding-bottom:2px;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.tool-like-face .tool-left
+{
+    float:left;
+
+}
+.tool-like-face .tool-right
+{
+    float:right;
+}
+
+
+.frm-reg
+{
+	
+	padding-bottom:20px;
+	padding-top:15px;
+	float:left;
+	width:430px;
+}
+
+
+.frm-reg div
+{
+	color:#9e9e9e
+}
+.frm-reg table tr td
+{
+	color:#593b29;
+	
+}
+.frm-reg table tr div.td-text
+{
+    position:relative;
+    padding-bottom:20px;
+}
+.frm-reg table tr div.td-text span
+{
+    position:absolute;
+    top:25px;
+    left:0;
+
+}
+.frm-reg table tr .txt-date .sbHolder
+{
+ width:55px;
+}
+.frm-reg table tr .txt-date .sbOptions
+{
+width:55px;
+}
+
+.frm-reg table tr .txt-year .sbHolder
+{
+ width:75px;
+}
+.frm-reg table tr .txt-year .sbOptions
+{
+width:75px;
+}
+
+.frm-reg span
+{
+	color:#f9b51e;
+	font-size:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+	display:inline-block;
+}
+.frm-reg .help
+{
+	position:relative;
+	font-size:11px;
+}
+.frm-reg a
+{
+	color:#50c3ff;
+}
+.frm-reg a:hover
+{
+	color:#f9b620;
+
+
+}
+.frm-reg input
+{
+	width:260px;
+	border:solid 1px #c7c5c5;
+	color:#593b29;
+	background-color:#fff;
+	height:20px;
+}
+
+.img_capcha img
+{
+    height:22px;
+    width:90px;
+
+}
+
+.btt-main
+{
+	text-align:center;
+	background-color:#e85140;
+	width:120px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Myriad Pro;
+}
+.btt-main a
+{
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Myriad Pro;
+	color:#fff;
+}
+
+
+#toTop {
+	width:100px;
+        border:1px solid #ccc;
+        background:#f7f7f7;
+        text-align:center;
+        padding:5px;
+        position:fixed; /* this is the magic */
+        bottom:10px; /* together with this to put the div at the bottom*/
+        right:10px;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:verdana;
+        font-size:11px;
+}
+
+
+
+/*Chi tiết sản phảm*/
+.productdetails
+{
+	margin-bottom:20px;
+}
+.productdetails .col-pic
+{
+	width:240px;
+	float:left;
+}
+
+
+.productdetails .col-pic .inner-col
+{
+}
+
+.productdetails .col-center
+{
+	float:right;
+	width:510px;
+}
+.productdetails .col-center h1
+{
+    font-size:14px;
+    margin:0;
+    color:#ff6d00;
+    border-bottom:solid 1px #d7d7d7;
+    padding-bottom:5px;
+}
+.productdetails .col-center h1 span
+{
+    font-size:12px;
+    color:#444;
+    font-weight:normal;
+}
+.productdetails .col-center .delivery
+{
+    background-repeat:no-repeat;
+    padding-left:20px;
+}
+.productdetails .col-center h2
+{
+	margin:0;
+	font-size:20px;
+	color:#2980b9;
+}
+.productdetails .col-center p
+{
+	color:#7d7d7d;
+}
+.productdetails .col-center span
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#714E36;
+}
+
+.more-pics 
+{
+	margin-top:30px;
+}
+
+.xxx
+{
+    border-bottom:solid 1px #ddd;
+    padding-top:10px;
+    padding-bottom:10px;
+    overflow:hidden;
+}
+
+.productdetails .col-center .xxx .price
+{
+    float:left;
+}
+
+
+.productdetails .col-center .Add-to-card
+{
+    float:right;
+}
+.productdetails .col-center .Add-to-card a
+{
+    text-indent:-9999em;
+    display:block;
+    width:102px;
+    height:33px;
+    background-position:center;
+}
+
+.productdetails .col-center .price span
+{
+    color: #444444;
+    display: block;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+}
+.productdetails .col-center .price span strong
+{
+    color:#e74c3c;
+}
+.productdetails .col-center .price del
+{
+    color: #B3B1B1;
+}
+
+.more-pics ul
+{
+	margin:0;
+	padding:0;
+}
+.more-pics ul li
+{
+	display:block;
+	float:left;
+	margin-right:5px;
+	margin-top:5px;
+}
+.more-pics ul li img
+{
+	width:60px;
+	border:solid 1px #cccccc;
+	height:60px;
+}
+.more-pics ul li img:hover
+{
+    border:solid 1px #fba547;
+}
+
+.productdetails .col-center .des-pro
+{
+	color:#3d3d3d;
+	line-height:20px;
+	padding-top:10px;
+}
+.productdetails .col-center .des-pro .title
+{
+	font-size:16px;
+	font-weight:bold;
+	font-family:Myriad Pro;
+	border-bottom:solid 1px #d7d7d7;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+.productdetails .col-right
+{
+	float:right;
+	width:70px;
+}
+
+.productdetails .col-right .title
+{
+	font-size:11px;
+	color:#9c9c9c;
+	line-height:18px;
+	text-align:center
+}
+.productdetails .col-right ul
+{
+	margin:0px;
+	padding:0;
+}
+.productdetails .col-right ul li
+{
+	display:block;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+.productdetails .col-right ul li img
+{
+	width:53px;
+	height:80px;
+	border:solid 2px #fff;
+}
+
+.cart
+{
+    margin-bottom:10px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:15px;
+}
+
+.cart img
+{
+    width:100px;
+
+}
+
+.cart .title
+{
+    margin-top:10px;
+    font-weight:bold;
+    color:#333;
+}
+.cart table tr 
+{
+    border-bottom:solid 1px #d7d7d7;
+}
+.cart table tr td
+{
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#919191;
+}
+.cart table tr td strong
+{
+    color:#fff;
+
+}
+.cart .price
+{
+    font-size:14px;
+    font-weight:bold;
+    color:Red;
+    font-family:Myriad Pro;
+}
+
+.main-btt
+{
+    width:auto;
+}
+.main-btt a 
+{
+    color:#fff;
+    font-size:13px;
+    font-weight:bold;
+    text-decoration:none;
+    display:inline-block;
+    background-color:#2980b9;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.main-hd
+{
+    font-size:14px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#593b29;
+    border-bottom:solid 1px #d0ac6c;
+    padding-bottom:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.frm-order
+{
+    padding-bottom:40px;
+    position:relative;
+}
+.loadding_order
+{
+    width:100%;
+    position:absolute;
+    padding-top:145px;
+    padding-bottom:210px;
+    text-align:center;
+    left:0;
+    top:0;
+    z-index:100;
+    display:none;
+    
+}
+.frm-order table tr td
+{
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight:bold;
+    color:#333;
+
+}
+.frm-order table tr td input
+{
+    width:316px;
+    border:solid 1px #b1b1b1;
+    height:22px;
+}
+.frm-order table tr td select
+{
+    border:solid 1px #b1b1b1;
+    height:24px;
+}
+.frm-order table tr td textarea
+{
+    width:316px;
+    border:solid 1px #b1b1b1;
+    height:80px;
+}
+.mes-err
+{
+    padding-bottom:5px;
+    color:Red;
+    font-weight:bold;
+    font-size:11px;
+    display:none;
+    padding-left:12px;
+    display:none;
+}
+
+.page-contact
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/*Video player*/
+
+
+.TRAILER
+{
+    background-repeat:repeat-y;
+    background-position:center;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding-bottom:10px;
+}
+
+
+.TRAILER .title
+{
+    background-repeat:no-repeat;
+    background-position:center top;
+    height:52px;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    text-transform:uppercase;
+    font-family:Tahoma;
+}
+.TRAILER .title span
+{
+    display:block;
+    padding-top:12px;
+    padding-left:15px;
+    font-size:16px;
+    font-family:Myriad Pro;
+
+}
+
+.TRAILER .Player
+{
+	width:280px;
+	margin:auto;
+	margin-top:10px;
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	padding-bottom:10px;
+}
+.TRAILER .Player .title-video
+{
+	color:#fff;
+	font-weight:bold;
+	padding-top:10px;
+
+}
+
+.TRAILER .playlist
+{
+	margin:auto;
+	padding-top:5px;
+	line-height:normal;
+	background-position:bottom right;
+	background-repeat:no-repeat;
+}
+.TRAILER .playlist div
+{
+	padding-top:6px;
+	padding-bottom:8px;
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom:solid 1px #d0236c;
+	border-top:solid 1px #b11a59;
+}
+.TRAILER .playlist div a
+{
+	color:#d7d7d7;
+	font-size:11px;
+	background-repeat:no-repeat;
+	display:block;
+}
+.TRAILER .playlist div.selected a
+{
+	color:#FFF;
+}
+
+
+.TRAILER .playlist div a:hover
+{
+	color:#fff;
+}
+
+
+
+/*Video home*/
+
+
+.VideoHome
+{
+    background-color:#fff;
+    padding:5px;
+}
+
+
+
+.VideoHome .title span
+{
+    display:block;
+    padding-top:15px;
+    padding-left:15px;
+
+}
+
+.VideoHome .Player
+{
+	width:200px;
+	margin:auto;
+	margin-top:0px;
+	background-repeat:no-repeat;
+	background-position:bottom center;
+}
+.VideoHome .Player .title-video
+{
+	color:#333;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:4px;
+}
+
+.VideoHome .playlist
+{
+	margin:auto;
+	padding-top:5px;
+	background-image:none;
+	width:200px;
+}
+.VideoHome .playlist div
+{
+	padding-top:6px;
+	padding-bottom:8px;
+	padding-left:5px;
+	padding-right:10px;
+	border-bottom:dotted 1px #cccccc;
+}
+.VideoHome .playlist div a
+{
+	color:#c42568;
+	font-size:12px;
+	background-repeat:no-repeat;
+	display:block;
+}
+.VideoHome .playlist div.selected a
+{
+	color:#911549;
+}
+
+
+.VideoHome .playlist div a:hover
+{
+	color:#911549;
+}
+
+
+
+.page-normal .col-right .TRAILER .newslist
+{
+
+}
+
+.page-normal .col-right .TRAILER .newslist
+{
+	width:280px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+
+}
+.page-normal .col-right .TRAILER .newslist div
+{
+	padding-bottom:6px;
+}
+.page-normal .col-right .TRAILER .newslist a
+{
+	background-repeat:no-repeat;
+	background-position:0 5px;
+	padding-left:10px;
+	color:#b0b0b0;
+	line-height:18px;
+	display:block;
+}
+.page-normal .col-right .TRAILER .newslist a:hover
+{
+	color:#fea800;
+
+}
+
+.page-video
+{
+	padding-left:20px;
+}
+
+
+.page-video .video-viewer
+{
+
+}
+.page-video .video-viewer img
+{
+    width:580px;
+}
+.page-video .video-viewer .title-video
+{
+	color:#c7c2c2;
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:15px;
+}
+.page-video .video-viewer .title-video h1
+{
+    color:#c7c2c2;
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:0px;
+	margin-bottom:0;
+	margin-top:10px;
+
+}
+
+
+
+.box-news
+{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+	background-position:bottom right;
+	background-repeat:no-repeat;
+
+}
+
+.box-news ul
+{
+
+}
+.box-news ul li
+{
+    overflow:hidden;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:solid 1px #b11a59;
+    border-top:solid 1px #d0236c;
+    width:100%;
+}
+.box-news ul li p
+{
+    margin:0;
+    color:#fdd1e4;
+    line-height:18px;
+}
+.box-news ul li .tl
+{
+    margin-bottom:7px;
+}
+.box-news ul li .tl a
+{
+    font-weight:bold;
+    color:#fff;
+    font-size:12px;
+}
+.box-news ul li img
+{
+    width:110px;
+    height:80px;
+    float:left;
+    margin-right:10px;
+    border:solid 1px #fdd1e4;
+    padding:1px;
+}
+
+
+/*Album*/
+
+.album-list
+{
+    margin-top:10px;
+}
+.album-list .al-title
+{
+    font-size:16px;
+    font-weight:bold;
+    color:#b11a59;
+    margin-bottom:15px;
+}
+.album-list ul
+{
+
+}
+.album-list ul li
+{
+    float:left;
+    margin-right:10px;
+    height:150px;
+    width:156px;
+}
+.album-list ul li img
+{
+    width:155px;
+    height:100px;
+}
+.album-list ul li.last
+{
+   margin-right:0;
+}
+.album-list ul li .tl
+{
+    margin-top:10px;
+}
+.album-list ul li .tl a
+{
+    color:#b11a59;
+}
+.album-list ul li .tl a:hover
+{
+    color:#881243;
+}
+
+
+
+.footer .g-link
+{
+	width:160px;
+	float:left;
+	margin-right:10px;
+}
+.footer .g-link .hd
+{
+	font-weight:bold;
+	font-size:12px;
+	color:#fff;
+	border-bottom:solid 1px #d24c76;
+	padding-bottom:10px;
+}
+.footer .g-link .link
+{
+	padding-top:5px;
+
+}
+.footer .g-link .link div
+{
+	padding-top:4px;
+	padding-bottom:3px;
+}
+.footer .g-link .link a
+{
+	color:#fff;
+	font-size:11px;
+}
+
+.support
+{
+
+}
+
+
+.support .title-sup
+{
+    font-size:12px;
+    font-weight:bold;
+    color:#333;
+    padding-top:5px;
+}
+
+#MyPlayer_wrapper
+{
+    width:200px !important;
+    height:170px;
+
+}
+
+.main-title
+{
+    font-size:14px;
+    font-weight:bold;
+    color:#333;
+}
+
+.Sort
+{
+ 
+}
+.Sort span
+{
+
+
+}
+
